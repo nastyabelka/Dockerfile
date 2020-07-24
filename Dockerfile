@@ -6,4 +6,3 @@ RUN mkdir -p myapp
 RUN mv spring-boot-build-4.0.0.jar myapp/app.jar
 CMD ["java","-jar","myapp/app.jar"]
 EXPOSE 80
-RUN -P
