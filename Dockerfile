@@ -1,6 +1,7 @@
 FROM anapsix/alpine-java
 MAINTAINER Nastia
-RUN mkdir -p myapp
-COPY ~/var/lib/jenkins/workspace/CI-pipeline/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/resources/jars/app.jar myapp/app.jar
-CMD ["java","-jar","myapp/app.jar"]
+# Pull app.jar from nexus
+RUN wget http://10.192.20.238:8081/repository/GW-repository-Nexus/org/springframework/boot/spring-boot-build/4.0.0/spring-boot-build-4.0.0.jar
+RUN mv spring-boot-build-4.0.0.jar app.jar
+CMD ["java","-jar","app.jar"]
 EXPOSE 80
