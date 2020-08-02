@@ -24,7 +24,7 @@
                 }
             ],
             "family": "Mylast-GW-CI-task",
-            "revision":NNNNN,
+            "revision":1,
             "volumes": [],
             "status": "ACTIVE",
             "placementConstraints": [],
