@@ -25,11 +25,11 @@
       "workingDirectory": null,
       "secrets": null,
       "dockerSecurityOptions": null,
-      "memory": 450,
+      "memory": 500,
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "018513864653.dkr.ecr.us-east-1.amazonaws.com/gw:NNNNN",
+      "image": "192608593085.dkr.ecr.us-east-1.amazonaws.com/gw:NNNNN",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -46,7 +46,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "GW-CI"
+      "name": "Mylast-GW-CI-task"
     }
   ],
   "placementConstraints": [],
@@ -55,8 +55,8 @@
   "compatibilities": [
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:018513864653:task-definition/GW-CI:1",
-  "family": "GW-CI",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:192608593085:task-definition/Mylast-GW-CI-task:1",
+  "family": "Mylast-GW-CI-task",
   "requiresAttributes": [
     {
       "targetId": null,
@@ -69,7 +69,7 @@
   "requiresCompatibilities": [
     "EC2"
   ],
-  "networkMode": "bridge",
+  "networkMode": null,
   "cpu": null,
   "revision": 1,
   "status": "ACTIVE",
