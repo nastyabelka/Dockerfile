@@ -46,7 +46,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "Mylast-GW-CI-task:NNNNN"
+      "name": "Mylast-GW-CI-task"
     }
   ],
   "placementConstraints": [],
@@ -55,7 +55,7 @@
   "compatibilities": [
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:192608593085:task-definition/Mylast-GW-CI-task:NNNNN",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:192608593085:task-definition/Mylast-GW-CI-task:1",
   "family": "Mylast-GW-CI-task",
   "requiresAttributes": [
     {
