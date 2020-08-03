@@ -161,6 +161,8 @@
     "pidMode": "task",
     "ipcMode": "none",
     "proxyConfiguration": {
+        "type": "APPMESH",
+        "containerName": "Mylast-GW-CI-task"
         
     },
     "inferenceAccelerators": [
