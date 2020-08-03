@@ -11,7 +11,7 @@
                 "credentialsParameter": ""
             },
             "cpu": 256,
-            "memory": 500,
+            "memory": 512,
             "memoryReservation": 0,
             "links": [
                 ""
