@@ -163,7 +163,9 @@
     "proxyConfiguration": {
         "type": "APPMESH",
         "containerName": "Mylast-GW-CI-task"
-        
+        "properties": [
+            
+        ]
     },
     "inferenceAccelerators": [
         
