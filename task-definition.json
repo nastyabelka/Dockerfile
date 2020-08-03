@@ -85,10 +85,7 @@
                 "swappiness": 0
             },
             "secrets": [
-                {
-                    "name": "",
-                    "valueFrom": ""
-                }
+                
             ],
             "dependsOn": [
                 {
