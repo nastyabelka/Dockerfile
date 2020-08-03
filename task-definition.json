@@ -28,29 +28,16 @@
                 ""
             ],
             "environment": [
-                {
-                    "name": "",
-                    "value": ""
-                }
+                
             ],
             "environmentFiles": [
-                {
-                    "value": "",
-                    "type": "s3"
-                }
+                
             ],
             "mountPoints": [
-                {
-                    "sourceVolume": "",
-                    "containerPath": "",
-                    "readOnly": true
-                }
+                
             ],
             "volumesFrom": [
-                {
-                    "sourceContainer": "",
-                    "readOnly": true
-                }
+                
             ],
             "linuxParameters": {
                 "capabilities": {
@@ -62,13 +49,7 @@
                     ]
                 },
                 "devices": [
-                    {
-                        "hostPath": "",
-                        "containerPath": "",
-                        "permissions": [
-                            "read"
-                        ]
-                    }
+                    
                 ],
                 "initProcessEnabled": true,
                 "sharedMemorySize": 0,
@@ -108,10 +89,7 @@
                 ""
             ],
             "extraHosts": [
-                {
-                    "hostname": "",
-                    "ipAddress": ""
-                }
+                
             ],
             "dockerSecurityOptions": [
                 ""
@@ -183,14 +161,7 @@
     "pidMode": "task",
     "ipcMode": "none",
     "proxyConfiguration": {
-        "type": "APPMESH",
-        "containerName": "",
-        "properties": [
-            {
-                "name": "",
-                "value": ""
-            }
-        ]
+        
     },
     "inferenceAccelerators": [
         
