@@ -165,8 +165,8 @@
         "containerName": "Mylast-GW-CI-task",
         "properties": [
             {
-                "IgnoredUID": "",
-				"IgnoredGID": "",
+                "IgnoredUID": "1337",
+		"IgnoredGID": "2339",
                 "name": "",
                 "value": ""
             }
