@@ -1,79 +1,242 @@
 {
-  "ipcMode": "",
-  "executionRoleArn": "",
-  "containerDefinitions": [
-    {
-      "dnsSearchDomains": "",
-      "environmentFiles": "",
-      "logConfiguration": "",
-      "entryPoint": "",
-      "portMappings": [
+    "family": "Mylast-GW-CI-task",
+    "taskRoleArn": "",
+    "executionRoleArn": "",
+    "networkMode": "awsvpc",
+    "containerDefinitions": [
         {
-          "hostPort": 0,
-          "protocol": "tcp",
-          "containerPort": 80
+            "name": "Mylast-GW-CI-task",
+            "image": "192608593085.dkr.ecr.us-east-1.amazonaws.com/gw:NNNNN",
+            "repositoryCredentials": {
+                "credentialsParameter": ""
+            },
+            "cpu": 0,
+            "memory": 500,
+            "memoryReservation": 0,
+            "links": [
+                ""
+            ],
+            "portMappings": [
+                {
+                    "containerPort": 80,
+                    "hostPort": 0,
+                    "protocol": "tcp"
+                }
+            ],
+            "essential": true,
+            "entryPoint": [
+                ""
+            ],
+            "command": [
+                ""
+            ],
+            "environment": [
+                {
+                    "name": "",
+                    "value": ""
+                }
+            ],
+            "environmentFiles": [
+                {
+                    "value": "",
+                    "type": "s3"
+                }
+            ],
+            "mountPoints": [
+                {
+                    "sourceVolume": "",
+                    "containerPath": "",
+                    "readOnly": true
+                }
+            ],
+            "volumesFrom": [
+                {
+                    "sourceContainer": "",
+                    "readOnly": true
+                }
+            ],
+            "linuxParameters": {
+                "capabilities": {
+                    "add": [
+                        ""
+                    ],
+                    "drop": [
+                        ""
+                    ]
+                },
+                "devices": [
+                    {
+                        "hostPath": "",
+                        "containerPath": "",
+                        "permissions": [
+                            "read"
+                        ]
+                    }
+                ],
+                "initProcessEnabled": true,
+                "sharedMemorySize": 0,
+                "tmpfs": [
+                    {
+                        "containerPath": "",
+                        "size": 0,
+                        "mountOptions": [
+                            ""
+                        ]
+                    }
+                ],
+                "maxSwap": 0,
+                "swappiness": 0
+            },
+            "secrets": [
+                {
+                    "name": "",
+                    "valueFrom": ""
+                }
+            ],
+            "dependsOn": [
+                {
+                    "containerName": "",
+                    "condition": "HEALTHY"
+                }
+            ],
+            "startTimeout": 0,
+            "stopTimeout": 0,
+            "hostname": "",
+            "user": "",
+            "workingDirectory": "",
+            "disableNetworking": true,
+            "privileged": true,
+            "readonlyRootFilesystem": true,
+            "dnsServers": [
+                ""
+            ],
+            "dnsSearchDomains": [
+                ""
+            ],
+            "extraHosts": [
+                {
+                    "hostname": "",
+                    "ipAddress": ""
+                }
+            ],
+            "dockerSecurityOptions": [
+                ""
+            ],
+            "interactive": true,
+            "pseudoTerminal": true,
+            "dockerLabels": {
+                "KeyName": ""
+            },
+            "ulimits": [
+                {
+                    "name": "msgqueue",
+                    "softLimit": 0,
+                    "hardLimit": 0
+                }
+            ],
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "KeyName": ""
+                },
+                "secretOptions": [
+                    {
+                        "name": "",
+                        "valueFrom": ""
+                    }
+                ]
+            },
+            "healthCheck": {
+                "command": [
+                    ""
+                ],
+                "interval": 0,
+                "timeout": 0,
+                "retries": 0,
+                "startPeriod": 0
+            },
+            "systemControls": [
+                {
+                    "namespace": "",
+                    "value": ""
+                }
+            ],
+            "resourceRequirements": [
+                {
+                    "value": "",
+                    "type": "GPU"
+                }
+            ],
+            "firelensConfiguration": {
+                "type": "fluentd",
+                "options": {
+                    "KeyName": ""
+                }
+            }
         }
-      ],
-      "command": "",
-      "linuxParameters": "",
-      "cpu": 0,
-      "environment": [],
-      "resourceRequirements": "",
-      "ulimits": "",
-      "dnsServers": "",
-      "mountPoints": [],
-      "workingDirectory": "",
-      "secrets": "",
-      "dockerSecurityOptions": "",
-      "memory": 500,
-      "memoryReservation": "",
-      "volumesFrom": [],
-      "stopTimeout": "",
-      "image": "192608593085.dkr.ecr.us-east-1.amazonaws.com/gw:NNNNN",
-      "startTimeout": "",
-      "firelensConfiguration": "",
-      "dependsOn": "",
-      "disableNetworking": "",
-      "interactive": "",
-      "healthCheck": "",
-      "essential": true,
-      "links": "",
-      "hostname": "",
-      "extraHosts": "",
-      "pseudoTerminal": "",
-      "user": "",
-      "readonlyRootFilesystem": "",
-      "dockerLabels": "",
-      "systemControls": "",
-      "privileged": "",
-      "name": "Mylast-GW-CI-task"
-    }
-  ],
-  "placementConstraints": [],
-  "memory": "",
-  "taskRoleArn": "",
-  "compatibilities": [
-    "EC2"
-  ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:192608593085:task-definition/Mylast-GW-CI-task:1",
-  "family": "Mylast-GW-CI-task",
-  "requiresAttributes": [
-    {
-      "targetId": "",
-      "targetType": "",
-      "value": "",
-      "name": "com.amazonaws.ecs.capability.ecr-auth"
-    }
-  ],
-  "pidMode": "",
-  "requiresCompatibilities": [
-    "EC2"
-  ],
-  "networkMode": "",
-  "cpu": "",
-  "revision": 1,
-  "status": "ACTIVE",
-  "inferenceAccelerators": "",
-  "proxyConfiguration": "",
-  "volumes": []
+    ],
+    "volumes": [
+        {
+            "name": "",
+            "host": {
+                "sourcePath": ""
+            },
+            "dockerVolumeConfiguration": {
+                "scope": "task",
+                "autoprovision": true,
+                "driver": "",
+                "driverOpts": {
+                    "KeyName": ""
+                },
+                "labels": {
+                    "KeyName": ""
+                }
+            },
+            "efsVolumeConfiguration": {
+                "fileSystemId": "",
+                "rootDirectory": "",
+                "transitEncryption": "ENABLED",
+                "transitEncryptionPort": 0,
+                "authorizationConfig": {
+                    "accessPointId": "",
+                    "iam": "ENABLED"
+                }
+            }
+        }
+    ],
+    "placementConstraints": [
+        {
+            "type": "memberOf",
+            "expression": ""
+        }
+    ],
+    "requiresCompatibilities": [
+        "EC2"
+    ],
+    "cpu": "",
+    "memory": "",
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "pidMode": "task",
+    "ipcMode": "none",
+    "proxyConfiguration": {
+        "type": "APPMESH",
+        "containerName": "",
+        "properties": [
+            {
+                "name": "",
+                "value": ""
+            }
+        ]
+    },
+    "inferenceAccelerators": [
+        {
+            "deviceName": "",
+            "deviceType": ""
+        }
+    ]
 }
