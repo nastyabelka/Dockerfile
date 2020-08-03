@@ -70,7 +70,7 @@
             ],
             "dependsOn": [
                 {
-                    "containerName": "",
+                    "containerName": "Mylast-GW-CI-task",
                     "condition": "HEALTHY"
                 }
             ],
