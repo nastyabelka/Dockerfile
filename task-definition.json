@@ -177,10 +177,7 @@
     ],
     
     "placementConstraints": [
-        {
-            "type": "memberOf",
-            "expression": ""
-        }
+        
     ],
     "requiresCompatibilities": [
         "EC2"
