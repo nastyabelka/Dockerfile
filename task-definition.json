@@ -216,10 +216,6 @@
     "cpu": "",
     "memory": "",
     "tags": [
-        {
-            "key": "",
-            "value": ""
-        }
     ],
     "pidMode": "task",
     "ipcMode": "none",
