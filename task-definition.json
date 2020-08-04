@@ -17,6 +17,12 @@
                 }
             ],
             "essential": true,
+            "dependsOn": [
+                {
+                    "containerName": "Mylast-GW-CI-task",
+                    "condition": "HEALTHY"
+                }
+            ]
         }
     ],
     "requiresCompatibilities": [
@@ -27,3 +33,4 @@
     "pidMode": "task",
     "ipcMode": "none"
 }
+
