@@ -16,13 +16,7 @@
                     "protocol": "tcp"
                 }
             ],
-            "essential": true,
-            "dependsOn": [
-                {
-                    "containerName": "Mylast-GW-CI-task",
-                    "condition": "HEALTHY"
-                }
-            ]
+            "essential": true
         }
     ],
     "requiresCompatibilities": [
@@ -33,4 +27,3 @@
     "pidMode": "task",
     "ipcMode": "none"
 }
-
