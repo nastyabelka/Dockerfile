@@ -1,11 +1,11 @@
 {
-    "family": "Belka-CI-las",
+    "family": "Belka-CI-last",
     "taskRoleArn": "",
     "executionRoleArn": "",
     "networkMode": "bridge",
     "containerDefinitions": [
         {
-            "name": "Belka-CI-las",
+            "name": "Belka-CI-last",
             "image": "192608593085.dkr.ecr.us-east-1.amazonaws.com/gw:NNNNN",
             "cpu": 256,
             "memory": 512,
