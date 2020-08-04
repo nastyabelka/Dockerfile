@@ -156,16 +156,7 @@
     ],
     "pidMode": "task",
     "ipcMode": "none",
-    "proxyConfiguration": {
-        "type": "APPMESH",
-        "containerName": "Mylast-GW-CI-task",
-        "properties": [
-            {
-                "name": "IgnoredUID",
-                "value": "1337"
-            }
-        ]
-    },
+    
     "inferenceAccelerators": [
         
     ]
