@@ -2,7 +2,7 @@
     "family": "Mylast-GW-CI-task",
     "taskRoleArn": "",
     "executionRoleArn": "",
-    "networkMode": "awsvpc",
+    "networkMode": "",
     "containerDefinitions": [
         {
             "name": "Mylast-GW-CI-task",
