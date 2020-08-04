@@ -17,8 +17,8 @@
                 }
             ],
             "essential": true,
-            "startTimeout": 0,
-            "stopTimeout": 0,
+            "startTimeout": 2,
+            "stopTimeout": 2,
             "ulimits": [
                 {
                     "name": "msgqueue",
