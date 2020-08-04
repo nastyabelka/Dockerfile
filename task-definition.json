@@ -130,10 +130,7 @@
                 }
             ],
             "resourceRequirements": [
-                {
-                    "value": "",
-                    "type": "GPU"
-                }
+                
             ],
             "firelensConfiguration": {
                 "type": "fluentd",
