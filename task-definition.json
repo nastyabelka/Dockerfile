@@ -1,18 +1,18 @@
 {
-    "family": "Mylast-GW-CI-task",
+    "family": "Belka-CI-las",
     "taskRoleArn": "",
     "executionRoleArn": "",
     "networkMode": "bridge",
     "containerDefinitions": [
         {
-            "name": "Mylast-GW-CI-task",
+            "name": "Belka-CI-las",
             "image": "192608593085.dkr.ecr.us-east-1.amazonaws.com/gw:NNNNN",
             "cpu": 256,
             "memory": 512,
             "portMappings": [
                 {
-                    "hostPort": 80,
-                    "containerPort": 80,
+                    "hostPort": 8080,
+                    "containerPort": 8080,
                     "protocol": "tcp"
                 }
             ],
