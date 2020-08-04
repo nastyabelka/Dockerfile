@@ -32,12 +32,6 @@
                     "hardLimit": 0
                 }
             ],
-            "logConfiguration": {
-                "logDriver": "awslogs",
-                "options": {
-                    "KeyName": ""
-                }
-            } 
         }
     ],
     "requiresCompatibilities": [
