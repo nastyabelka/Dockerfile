@@ -19,53 +19,7 @@
                 }
             ],
             "essential": true,
-            "entryPoint": [
-                ""
-            ],
-            "command": [
-                ""
-            ],
-            "environment": [
-                
-            ],
-            "environmentFiles": [
-                
-            ],
-            "mountPoints": [
-                
-            ],
-            "volumesFrom": [
-                
-            ],
-            "linuxParameters": {
-                "capabilities": {
-                    "add": [
-                        ""
-                    ],
-                    "drop": [
-                        ""
-                    ]
-                },
-                "devices": [
-                    
-                ],
-                "initProcessEnabled": true,
-                "sharedMemorySize": 0,
-                "tmpfs": [
-                    {
-                        "containerPath": "",
-                        "size": 0,
-                        "mountOptions": [
-                            ""
-                        ]
-                    }
-                ],
-                "maxSwap": 0,
-                "swappiness": 0
-            },
-            "secrets": [
-                
-            ],
+            
             "dependsOn": [
                 {
                     "containerName": "Mylast-GW-CI-task",
@@ -75,24 +29,6 @@
             "startTimeout": 0,
             "stopTimeout": 0,
             
-            "user": "",
-            
-            "dnsServers": [
-                ""
-            ],
-            "dnsSearchDomains": [
-                ""
-            ],
-            "extraHosts": [
-                
-            ],
-            "dockerSecurityOptions": [
-                ""
-            ],
-            
-            "dockerLabels": {
-                "KeyName": ""
-            },
             "ulimits": [
                 {
                     "name": "msgqueue",
@@ -104,43 +40,9 @@
                 "logDriver": "awslogs",
                 "options": {
                     "KeyName": ""
-                },
-                "secretOptions": [
-                    {
-                        "name": "",
-                        "valueFrom": ""
-                    }
-                ]
-            },
-            "healthCheck": {
-                "command": [
-                    ""
-                ],
-                "interval": 0,
-                "timeout": 0,
-                "retries": 0,
-                "startPeriod": 0
-            },
-            "systemControls": [
-                {
-                    "namespace": "",
-                    "value": ""
                 }
-            ],
-            "resourceRequirements": [
-                
-            ],
-            "firelensConfiguration": {
-                "type": "fluentd",
-                "options": {
-                    "KeyName": ""
-                }
-            }
+            } 
         }
-    ],
-    
-    "placementConstraints": [
-        
     ],
     "requiresCompatibilities": [
         "EC2"
@@ -151,8 +53,4 @@
     ],
     "pidMode": "task",
     "ipcMode": "none",
-    
-    "inferenceAccelerators": [
-        
-    ]
 }
