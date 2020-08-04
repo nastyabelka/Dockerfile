@@ -79,9 +79,6 @@
             "hostname": "",
             "user": "",
             "workingDirectory": "",
-            "disableNetworking": "",
-            "privileged": "",
-            "readonlyRootFilesystem": "",
             "dnsServers": [
                 ""
             ],
@@ -94,8 +91,7 @@
             "dockerSecurityOptions": [
                 ""
             ],
-            "interactive": "",
-            "pseudoTerminal": "",
+            
             "dockerLabels": {
                 "KeyName": ""
             },
