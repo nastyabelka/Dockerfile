@@ -2,7 +2,7 @@
     "family": "Mylast-GW-CI-task",
     "taskRoleArn": "",
     "executionRoleArn": "",
-    "networkMode": "none",
+    "networkMode": "bridge",
     "containerDefinitions": [
         {
             "name": "Mylast-GW-CI-task",
