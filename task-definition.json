@@ -9,7 +9,7 @@
             "image": "192608593085.dkr.ecr.us-east-1.amazonaws.com/gw:NNNNN",
             "cpu": 256,
             "memory": 512,
-            "memoryReservation": 0,
+            "memoryReservation": ,
             "links": [
                 ""
             ],
