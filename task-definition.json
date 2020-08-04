@@ -76,7 +76,7 @@
             "stopTimeout": 0,
             
             "user": "",
-            "workingDirectory": "",
+            
             "dnsServers": [
                 ""
             ],
