@@ -9,8 +9,6 @@
             "image": "192608593085.dkr.ecr.us-east-1.amazonaws.com/gw:NNNNN",
             "cpu": 256,
             "memory": 512,
-            
-            
             "portMappings": [
                 {
                     "hostPort": 80,
@@ -19,7 +17,6 @@
                 }
             ],
             "essential": true,
-            
             "dependsOn": [
                 {
                     "containerName": "Mylast-GW-CI-task",
@@ -28,7 +25,6 @@
             ],
             "startTimeout": 0,
             "stopTimeout": 0,
-            
             "ulimits": [
                 {
                     "name": "msgqueue",
@@ -49,8 +45,6 @@
     ],
     "cpu": "256",
     "memory": "512",
-    "tags": [
-    ],
     "pidMode": "task",
     "ipcMode": "none"
 }
