@@ -17,15 +17,6 @@
                 }
             ],
             "essential": true,
-            "startTimeout": 2,
-            "stopTimeout": 2,
-            "ulimits": [
-                {
-                    "name": "msgqueue",
-                    "softLimit": 0,
-                    "hardLimit": 0
-                }
-            ]
         }
     ],
     "requiresCompatibilities": [
